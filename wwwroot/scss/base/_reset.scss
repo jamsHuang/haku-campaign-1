@@ -1,0 +1,28 @@
+body, html {
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#hakuApp {
+  * {
+    box-sizing: border-box;
+  }
+
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:focus {
+    outline: 0;
+  }
+}

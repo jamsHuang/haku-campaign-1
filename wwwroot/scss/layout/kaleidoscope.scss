@@ -1,0 +1,13 @@
+
+.kaleidoscope {
+  z-index: 1;
+
+  .app_section_content {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+}
